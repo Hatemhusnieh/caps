@@ -1,9 +1,9 @@
 'use strict';
-const events = require('./events');
-require('./caps');
-require('./vendor');
-require('./driver');
-const User = require('./model')
+const events = require('./hub/events');
+require('./hub/caps');
+require('./vendor/vendor');
+require('./driver/driver');
+const User = require('./model/model')
 
 let runs = 5;
 const set = setInterval(()=>{
