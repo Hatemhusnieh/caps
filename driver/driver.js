@@ -1,5 +1,5 @@
 'use strict';
-const events = require("./events");
+const events = require("../hub/events");
 
 events.on('in-transit', payload => {
   setTimeout(() => {

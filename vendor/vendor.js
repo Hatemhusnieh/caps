@@ -1,6 +1,6 @@
 'use strict';
-const events = require("./events");
-require('./driver');
+const events = require("../hub/events");
+require('../driver/driver');
 
 events.on('pickup', (payload) => {
   setTimeout(() => {
