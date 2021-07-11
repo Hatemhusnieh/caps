@@ -9,9 +9,9 @@
 1. run the app
 
 ## Deploy, Run and Test
-- [test report]()
+- [test report](https://github.com/Hatemhusnieh/caps/actions)
 - [deployed link]()
-- [Pull Request]()
+- [Pull Request](https://github.com/Hatemhusnieh/caps/pull/1)
 
 ### Setup  
 
@@ -19,13 +19,13 @@
 - either:
   1. `npm start`
   1. `nodemon`
-- Endpoint: `/api/v1/games`
-  - returns Object
-    ![Object](resources/games.png)
+- log:
+  - returns
+    ![logs](res/res.png)
 
 #### Test   
 - Unit test: `npm run test`
 - Lint test: `npm run lint`
 
 ### UML:  
-![uml]()
+![uml](./res/EDA.jpg)
